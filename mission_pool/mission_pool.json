@@ -1,0 +1,102 @@
+{
+    "A": {
+        "primary_mission": "take_and_hold",
+        "deployment": "tipping_point",
+        "terrain_layout": [1, 2, 4, 6, 7, 8]
+    },
+    "B": {
+        "primary_mission": "supply_drop",
+        "deployment": "tipping_point",
+        "terrain_layout": [1, 2, 4, 6, 7, 8]
+    },
+    "C": {
+        "primary_mission": "linchpin",
+        "deployment": "tipping_point",
+        "terrain_layout": [1, 2, 4, 6, 7, 8]
+    },
+    "D": {
+        "primary_mission": "scorched_earth",
+        "deployment": "tipping_point",
+        "terrain_layout": [1, 2, 4, 6, 7, 8]
+    },
+    "E": {
+        "primary_mission": "take_and_hold",
+        "deployment": "hammer_and_anvil",
+        "terrain_layout": [1, 7, 8]
+    },
+    "F": {
+        "primary_mission": "hidden_supplies",
+        "deployment": "hammer_and_anvil",
+        "terrain_layout": [1, 7, 8]
+    },
+    "G": {
+        "primary_mission": "purge_the_foe",
+        "deployment": "hammer_and_anvil",
+        "terrain_layout": [1, 7, 8]
+    },
+    "H": {
+        "primary_mission": "supply_drop",
+        "deployment": "hammer_and_anvil",
+        "terrain_layout": [1, 7, 8]
+    },
+    "I": {
+        "primary_mission": "hidden_supplies",
+        "deployment": "search_and_destroy",
+        "terrain_layout": [1, 2, 3, 4, 6]
+    },
+    "J": {
+        "primary_mission": "linchpin",
+        "deployment": "search_and_destroy",
+        "terrain_layout": [1, 2, 3, 4, 6]
+    },
+    "K": {
+        "primary_mission": "scorched_earth",
+        "deployment": "search_and_destroy",
+        "terrain_layout": [1, 2, 3, 4, 6]
+    },
+    "L": {
+        "primary_mission": "take_and_hold",
+        "deployment": "search_and_destroy",
+        "terrain_layout": [1, 2, 3, 4, 6]
+    },
+    "M": {
+        "primary_mission": "purge_the_foe",
+        "deployment": "crucible_of_battle",
+        "terrain_layout": [1, 2, 4, 6, 8]
+    },
+    "N": {
+        "primary_mission": "hidden_supplies",
+        "deployment": "crucible_of_battle",
+        "terrain_layout": [1, 2, 4, 6, 8]
+    },
+    "O": {
+        "primary_mission": "terraform",
+        "deployment": "crucible_of_battle",
+        "terrain_layout": [1, 2, 4, 6, 8]
+    },
+    "P": {
+        "primary_mission": "scorched_earth",
+        "deployment": "crucible_of_battle",
+        "terrain_layout": [1, 2, 4, 6, 8]
+    },
+    "Q": {
+        "primary_mission": "supply_drop",
+        "deployment": "sweeping_engagement",
+        "terrain_layout": [3, 5]
+    },
+    "R": {
+        "primary_mission": "terraform",
+        "deployment": "sweeping_engagement",
+        "terrain_layout": [3, 5]
+    },
+    "S": {
+        "primary_mission": "linchpin",
+        "deployment": "dawn_of_war",
+        "terrain_layout": [5]
+    },
+    "T": {
+        "primary_mission": "purge_the_foe",
+        "deployment": "dawn_of_war",
+        "terrain_layout": [5]
+    }
+}
