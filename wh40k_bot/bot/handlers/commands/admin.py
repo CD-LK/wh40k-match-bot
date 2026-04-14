@@ -68,6 +68,12 @@ async def cmd_newgame(message: Message, session: AsyncSession, bot: Bot, **kwarg
         reply_markup=game_management_keyboard(game)
     )
 
+    # Формируем список участников для уведомления
+    participants_list = "\n".join(
+        f"  • @{n}" if not n.startswith("@") else f"  • {n}"
+        for _, n in result.users_to_notify
+    )
+
     # Уведомляем участников
     for tg_id, name in result.users_to_notify:
         try:
@@ -76,7 +82,7 @@ async def cmd_newgame(message: Message, session: AsyncSession, bot: Bot, **kwarg
                 text=(
                     f"🎮 <b>Вас добавили в игру!</b>\n\n"
                     f"{format_game_info(game)}\n\n"
-                    f"Отправьте ваш список армии текстом.\n\n"
+                    f"<b>Участники:</b>\n{participants_list}\n\n"
                     f"Используйте /submit для отправки списка."
                 ),
                 parse_mode="HTML"
