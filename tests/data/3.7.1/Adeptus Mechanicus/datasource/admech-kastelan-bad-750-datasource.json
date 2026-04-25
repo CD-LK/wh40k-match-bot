@@ -1,0 +1,1277 @@
+{
+  "id": "admech-kastelan-bad-750",
+  "name": "Admech-kastelan-bad-750",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-24T23:56:21.216Z",
+  "data": [
+    {
+      "id": "admech-kastelan-bad-750",
+      "name": "Admech-kastelan-bad-750",
+      "colours": {
+        "header": "#1a1a1a",
+        "banner": "#4a4a4a"
+      },
+      "datasheets": [
+        {
+          "abilities": {
+            "core": [],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "4+"
+            },
+            "other": [
+              {
+                "name": "Canticles of the Omnissiah",
+                "description": "At the start of your Command phase, select one of the abilities in the Canticles of the Omnissiah section. Until the start of your next Command phase, this model has that ability.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Mechanicus Bodyguard",
+                "description": "While this model is within 3\" of one or more other friendly ADEPTUS MECHANICUS units, this model has the Lone Operative ability.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Self-repair Mechanisms",
+                "description": "At the start of your Command phase, this model regains up to D3 lost wounds.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [
+              {
+                "name": "Canticles of the Omnissiah",
+                "abilities": [
+                  {
+                    "name": "Invocation of Machine Vengeance (Aura)",
+                    "description": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly ADEPTUS MECHANICUS unit makes an attack that targets your Machine Vengeance target, you can re-roll the Hit roll.",
+                    "showAbility": true,
+                    "showDescription": true
+                  },
+                  {
+                    "name": "Mantra of Discipline",
+                    "description": "This model has the BATTLELINE keyword and has the following ability:\n\nBinharic Courage (Aura): While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test.",
+                    "showAbility": true,
+                    "showDescription": true
+                  },
+                  {
+                    "name": "Shroudpsalm (Aura)",
+                    "description": "While a friendly ADEPTUS MECHANICUS unit is within 6\" of this model, that unit has the Stealth ability.",
+                    "showAbility": true,
+                    "showDescription": true
+                  }
+                ],
+                "showAbility": true
+              }
+            ],
+            "special": [
+              {
+                "description": "If this model is in your army, it must be your WARLORD.",
+                "name": "Supreme Commander",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Belisarius Cawl – EPIC HERO"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Belisarius Cawl’s war form is a multi-limbed, biomechanical hybrid. Advanced bionics grant him immense strength and resilience, while snaking tendrils rapidly repair his cybernetic body. For ten thousand years, Cawl has eradicated the Imperium’s enemies, and he leads the Machine God’s devotees in holy acquisition still.",
+          "id": "3f62892a-43a7-59c6-89b7-405b1e72cbd6",
+          "keywords": [
+            "Monster",
+            "Character",
+            "Epic Hero",
+            "Imperium",
+            "Tech-Priest",
+            "Cult Mechanicus",
+            "Belisarius Cawl"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: solar atomiser; arc scourge; Cawl’s Omnissian axe; mechadendrite hive.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "4",
+                  "damage": "1",
+                  "keywords": [
+                    "Extra Attacks",
+                    "Devastating Wounds",
+                    "Anti-vehicle 4+"
+                  ],
+                  "name": "Arc scourge",
+                  "range": "Melee",
+                  "skill": "2+",
+                  "strength": "5"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Cawl’s Omnissian axe",
+                  "range": "Melee",
+                  "skill": "2+",
+                  "strength": "8"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "2D6",
+                  "damage": "1",
+                  "keywords": [
+                    "Extra Attacks"
+                  ],
+                  "name": "Mechadendrite hive",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "4"
+                }
+              ]
+            }
+          ],
+          "name": "Belisarius Cawl",
+          "points": [
+            {
+              "cost": "210",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-4",
+                  "attacks": "3",
+                  "damage": "D6",
+                  "keywords": [
+                    "Melta 3"
+                  ],
+                  "name": "Solar atomiser",
+                  "range": "18\"",
+                  "skill": "2+",
+                  "strength": "14"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "6+",
+              "m": "8\"",
+              "name": "Belisarius Cawl",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "8",
+              "w": "10"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "105 x 70mm Oval Base",
+          "chapter": null,
+          "role": "Character",
+          "unitSize": {
+            "cost": "210",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": true
+        },
+        {
+          "abilities": {
+            "core": [
+              "Leader"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "5+"
+            },
+            "other": [
+              {
+                "name": "Battle Protocols",
+                "description": "At the start of the battle, if this model is leading a KASTELAN ROBOTS unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a KASTELAN ROBOTS unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one.\n\n■ Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by KASTELAN ROBOT models in that unit.\n■ Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by KASTELAN ROBOT models in that unit.\n■ Aegis Protocol: Add 1 to the Toughness characteristic of KASTELAN ROBOT models in that unit.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Cybernetica Datasmith"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Datasmiths optimise the programming of their robotic charges. These Tech-Priests employ rituals and binharic hymns to bless the doctrina wafers through which they alter the robots’ protocols, all the while laying waste to the enemies of the Omnissiah with blasts of ionising radiation from their esoteric pistols.",
+          "id": "53661916-dc81-5293-919b-5c31b0bf7e36",
+          "keywords": [
+            "Infantry",
+            "Character",
+            "Imperium",
+            "Legio Cybernetica",
+            "Tech-Priest",
+            "Cybernetica Datasmith"
+          ],
+          "leader": "This model must be attached to the following unit: ■ KASTELAN ROBOTS You must attach this model to a KASTELAN ROBOTS unit, even if one or more other CYBERNETICA DATASMITH models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a KASTELAN ROBOTS unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a KASTELAN ROBOTS unit, this model loses the INFANTRY keyword.",
+          "loadout": "This model is equipped with: Mechanicus pistol; power fist.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "2",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Power fist",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "8"
+                }
+              ]
+            }
+          ],
+          "name": "Cybernetica Datasmith",
+          "points": [
+            {
+              "cost": "35",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [
+                    "Pistol",
+                    "Devastating Wounds"
+                  ],
+                  "name": "Mechanicus pistol",
+                  "range": "12\"",
+                  "skill": "3+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Cybernetica Datasmith",
+              "oc": "1",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "4",
+              "w": "3"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "32mm",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "KASTELAN ROBOTS"
+            ],
+            "extra": "You must attach this model to a KASTELAN ROBOTS unit, even if one or more other CYBERNETICA DATASMITH models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a KASTELAN ROBOTS unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a KASTELAN ROBOTS unit, this model loses the INFANTRY keyword.",
+            "isBodyguard": true,
+            "isMandatory": true
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "35",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "selectedEnhancement": {
+            "name": "Transoracular Dyad Wafers",
+            "id": "daab17ff-d650-5aa9-9e92-06a7f4e9cb9e",
+            "cost": "15",
+            "keywords": [
+              "Cybernetica Datasmith"
+            ],
+            "excludes": [],
+            "description": "CYBERNETICA DATASMITH model only. When the bearer is attached to a KASTELAN ROBOTS unit, until the end of the battle, models in that unit gain the HALO OVERRIDE keyword. That unit cannot be selected when selecting units as part of the Noospheric Transference Detachment rule.",
+            "faction_id": "AdM",
+            "source": "40k-10e",
+            "cardType": "enhancement",
+            "detachment": "Haloscreed Battle Clade",
+            "detachment_faction": "Adeptus Mechanicus"
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "5+"
+            },
+            "other": [
+              {
+                "name": "Robotic Bodyguard",
+                "description": "While a CYBERNETICA DATASMITH model is leading this unit, that model has the Feel No Pain 4+ ability.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Repulsor Grid",
+                "description": "Each time a ranged attack is allocated to a KASTELAN ROBOT model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "2-4 Kastelan Robots"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Kastelan Robots are giant automata from Mankind’s dark past, shielded with thick armour and advanced force fields. Heeding preprogrammed doctrines without fail, Kastelans are bastions in defence and almost unstoppable on the attack, unleashing heavy firepower or else bludgeoning swipes with their giant fists.",
+          "id": "11fd9afc-58f4-5280-94a2-7f30776436af",
+          "keywords": [
+            "Vehicle",
+            "Walker",
+            "Imperium",
+            "Legio Cybernetica",
+            "Kastelan Robots"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: incendine combustor; twin Kastelan fist.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "3",
+                  "keywords": [
+                    "Twin-linked"
+                  ],
+                  "name": "Twin Kastelan fist",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "12"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "3",
+                  "keywords": [],
+                  "name": "Kastelan fist",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "12"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Close combat weapon",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "name": "Kastelan Robots",
+          "points": [
+            {
+              "cost": "360",
+              "keyword": null,
+              "models": "4",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "180",
+              "keyword": null,
+              "models": "2",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D6",
+                  "damage": "1",
+                  "keywords": [
+                    "Torrent",
+                    "Ignores Cover"
+                  ],
+                  "name": "Incendine combustor",
+                  "range": "12\"",
+                  "skill": "N/A",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [
+                    "Ignores Cover"
+                  ],
+                  "name": "Kastelan phosphor blaster",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [
+                    "Twin-linked",
+                    "Ignores Cover"
+                  ],
+                  "name": "Twin Kastelan phosphor blaster",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "2",
+                  "keywords": [
+                    "Ignores Cover"
+                  ],
+                  "name": "Heavy phosphor blaster",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Kastelan Robots",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "9",
+              "w": "7"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster.",
+            "Any number of models can each have their twin Kastelan fist replaced with one of the following: ◦ 1 Kastelan phosphor blaster and 1 Kastelan fist ◦ 1 twin Kastelan phosphor blaster and 1 close combat weapon"
+          ],
+          "baseSize": "60mm",
+          "chapter": null,
+          "leadBy": [
+            "Cybernetica Datasmith"
+          ],
+          "role": "Other",
+          "unitSize": {
+            "cost": "180",
+            "keyword": null,
+            "models": "2",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Leader"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "5+"
+            },
+            "other": [
+              {
+                "name": "Battle Protocols",
+                "description": "At the start of the battle, if this model is leading a KASTELAN ROBOTS unit, that unit enters Aegis Protocols (see below). In your Command phase, if this model is leading a KASTELAN ROBOTS unit, you can select one protocol from those listed below for that unit to enter. Once a unit enters a protocol, it remains in that protocol until it enters a different one.\n\n■ Protector Protocol: Add 2 to the Attacks characteristic of ranged weapons equipped by KASTELAN ROBOT models in that unit.\n■ Conqueror Protocol: Add 2 to the Attacks characteristic of melee weapons equipped by KASTELAN ROBOT models in that unit.\n■ Aegis Protocol: Add 1 to the Toughness characteristic of KASTELAN ROBOT models in that unit.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Cybernetica Datasmith"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Datasmiths optimise the programming of their robotic charges. These Tech-Priests employ rituals and binharic hymns to bless the doctrina wafers through which they alter the robots’ protocols, all the while laying waste to the enemies of the Omnissiah with blasts of ionising radiation from their esoteric pistols.",
+          "id": "53661916-dc81-5293-919b-5c31b0bf7e36",
+          "keywords": [
+            "Infantry",
+            "Character",
+            "Imperium",
+            "Legio Cybernetica",
+            "Tech-Priest",
+            "Cybernetica Datasmith"
+          ],
+          "leader": "This model must be attached to the following unit: ■ KASTELAN ROBOTS You must attach this model to a KASTELAN ROBOTS unit, even if one or more other CYBERNETICA DATASMITH models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a KASTELAN ROBOTS unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a KASTELAN ROBOTS unit, this model loses the INFANTRY keyword.",
+          "loadout": "This model is equipped with: Mechanicus pistol; power fist.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "2",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Power fist",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "8"
+                }
+              ]
+            }
+          ],
+          "name": "Cybernetica Datasmith",
+          "points": [
+            {
+              "cost": "35",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [
+                    "Pistol",
+                    "Devastating Wounds"
+                  ],
+                  "name": "Mechanicus pistol",
+                  "range": "12\"",
+                  "skill": "3+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Cybernetica Datasmith",
+              "oc": "1",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "4",
+              "w": "3"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "32mm",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "KASTELAN ROBOTS"
+            ],
+            "extra": "You must attach this model to a KASTELAN ROBOTS unit, even if one or more other CYBERNETICA DATASMITH models have already been attached to it. In such cases, if that Bodyguard unit is destroyed, the Leader units attached to it become separate units with their original Starting Strengths. If you cannot attach this model to a KASTELAN ROBOTS unit, this model cannot be deployed and counts as having been destroyed during the first battle round. While attached to a KASTELAN ROBOTS unit, this model loses the INFANTRY keyword.",
+            "isBodyguard": true,
+            "isMandatory": true
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "35",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "selectedEnhancement": {
+            "name": "Sanctified Ordnance",
+            "id": "8c8cb2e7-0895-5f02-ba75-d65cb1af7462",
+            "cost": "10",
+            "keywords": [
+              "Adeptus Mechanicus"
+            ],
+            "excludes": [],
+            "description": "ADEPTUS MECHANICUS model only. Add 6\" to the range characteristic of ranged weapons equipped by models in the bearer’s unit and, each time a Hazardous test is taken for that unit, you can re‑roll the result.",
+            "faction_id": "AdM",
+            "source": "40k-10e",
+            "cardType": "enhancement",
+            "detachment": "Haloscreed Battle Clade",
+            "detachment_faction": "Adeptus Mechanicus"
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "5+"
+            },
+            "other": [
+              {
+                "name": "Robotic Bodyguard",
+                "description": "While a CYBERNETICA DATASMITH model is leading this unit, that model has the Feel No Pain 4+ ability.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Repulsor Grid",
+                "description": "Each time a ranged attack is allocated to a KASTELAN ROBOT model in this unit, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "2-4 Kastelan Robots"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Kastelan Robots are giant automata from Mankind’s dark past, shielded with thick armour and advanced force fields. Heeding preprogrammed doctrines without fail, Kastelans are bastions in defence and almost unstoppable on the attack, unleashing heavy firepower or else bludgeoning swipes with their giant fists.",
+          "id": "11fd9afc-58f4-5280-94a2-7f30776436af",
+          "keywords": [
+            "Vehicle",
+            "Walker",
+            "Imperium",
+            "Legio Cybernetica",
+            "Kastelan Robots"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: incendine combustor; twin Kastelan fist.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "3",
+                  "keywords": [
+                    "Twin-linked"
+                  ],
+                  "name": "Twin Kastelan fist",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "12"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "3",
+                  "keywords": [],
+                  "name": "Kastelan fist",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "12"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Close combat weapon",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "name": "Kastelan Robots",
+          "points": [
+            {
+              "cost": "360",
+              "keyword": null,
+              "models": "4",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "180",
+              "keyword": null,
+              "models": "2",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D6",
+                  "damage": "1",
+                  "keywords": [
+                    "Torrent",
+                    "Ignores Cover"
+                  ],
+                  "name": "Incendine combustor",
+                  "range": "12\"",
+                  "skill": "N/A",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [
+                    "Ignores Cover"
+                  ],
+                  "name": "Kastelan phosphor blaster",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [
+                    "Twin-linked",
+                    "Ignores Cover"
+                  ],
+                  "name": "Twin Kastelan phosphor blaster",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "2",
+                  "keywords": [
+                    "Ignores Cover"
+                  ],
+                  "name": "Heavy phosphor blaster",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Kastelan Robots",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "9",
+              "w": "7"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "Any number of models can each have their incendine combustor replaced with 1 heavy phosphor blaster.",
+            "Any number of models can each have their twin Kastelan fist replaced with one of the following: ◦ 1 Kastelan phosphor blaster and 1 Kastelan fist ◦ 1 twin Kastelan phosphor blaster and 1 close combat weapon"
+          ],
+          "baseSize": "60mm",
+          "chapter": null,
+          "leadBy": [
+            "Cybernetica Datasmith"
+          ],
+          "role": "Other",
+          "unitSize": {
+            "cost": "180",
+            "keyword": null,
+            "models": "2",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Scouts 6\""
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Doctrina Imperatives"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "5+"
+            },
+            "other": [
+              {
+                "name": "Objective Scouted",
+                "description": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": [
+              {
+                "name": "Enhanced data-tether",
+                "description": "Each time you select the bearer’s unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Omnispex",
+                "description": "Ranged weapons equipped by models in the bearer’s unit have the [IGNORES COVER] ability.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ]
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Skitarii Ranger Alpha",
+            "9 Skitarii Rangers"
+          ],
+          "factions": [
+            "Adeptus Mechanicus"
+          ],
+          "faction_id": "admech-kastelan-bad-750",
+          "fluff": "Rangers relentlessly pursue their quarry over months or even years, tracking elusive prey unto death. They bear antique, long-barrelled galvanic rifles, whose energised ammunition transfers a coruscating charge when it hits, leaving the prey a smoking husk while the Rangers are already lining up their next target.",
+          "id": "dce7d828-db1b-5c95-9190-0fe0b05960bc",
+          "keywords": [
+            "Infantry",
+            "Battleline",
+            "Imperium",
+            "Skitarii",
+            "Rangers"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: galvanic rifle; close combat weapon.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Close combat weapon",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "3"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Alpha combat weapon",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "name": "Skitarii Rangers",
+          "points": [
+            {
+              "cost": "85",
+              "keyword": null,
+              "models": "10",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Galvanic rifle",
+                  "range": "30\"",
+                  "skill": "4+",
+                  "strength": "4"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [
+                    "Pistol",
+                    "Devastating Wounds"
+                  ],
+                  "name": "Mechanicus pistol",
+                  "range": "12\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "1",
+                  "damage": "D3",
+                  "keywords": [
+                    "Rapid Fire 1",
+                    "Devastating Wounds",
+                    "Anti-vehicle 4+"
+                  ],
+                  "name": "Arc rifle",
+                  "range": "30\"",
+                  "skill": "4+",
+                  "strength": "8"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Plasma caliver – Standard",
+                  "range": "30\"",
+                  "skill": "4+",
+                  "strength": "7"
+                },
+                {
+                  "active": true,
+                  "ap": "-3",
+                  "attacks": "2",
+                  "damage": "2",
+                  "keywords": [
+                    "Hazardous"
+                  ],
+                  "name": "Plasma caliver – Supercharge",
+                  "range": "30\"",
+                  "skill": "4+",
+                  "strength": "8"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "1",
+                  "damage": "D3",
+                  "keywords": [
+                    "Precision",
+                    "Heavy"
+                  ],
+                  "name": "Transuranic arquebus",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "7"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Skitarii Ranger",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": true,
+              "sv": "4+",
+              "t": "3",
+              "w": "1"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "1 Skitarii Ranger equipped with a galvanic rifle can be equipped with one of the following:  ◦ 1 enhanced data-tether ◦ 1 omnispex  * That model’s galvanic rifle cannot be replaced.",
+            "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 transuranic arquebus.",
+            "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 plasma caliver.",
+            "1 Skitarii Ranger’s galvanic rifle can be replaced with 1 arc rifle.",
+            "The Skitarii Ranger Alpha’s galvanic rifle can be replaced with 1 Mechanicus pistol.",
+            "The Skitarii Ranger Alpha can be equipped with 1 Alpha combat weapon."
+          ],
+          "baseSize": "Skitarii Rangers: 25mm\nTransuranic Arquebus: 60 x 35.5mm Oval Base",
+          "chapter": null,
+          "leadBy": [
+            "Tech-Priest Manipulus",
+            "Tech-Priest Dominus",
+            "Technoarcheologist",
+            "Tech-Priest Enginseer",
+            "Skitarii Marshal"
+          ],
+          "role": "Battleline",
+          "unitSize": {
+            "cost": "85",
+            "keyword": null,
+            "models": "10",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        }
+      ]
+    }
+  ]
+}

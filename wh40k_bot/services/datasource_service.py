@@ -202,6 +202,25 @@ def get_display_faction_name(faction_file: str) -> str:
     return FACTION_DISPLAY_NAMES.get(faction_file, faction_file.replace('_', ' ').title())
 
 
+def detect_army_format(data: dict) -> str:
+    """Определить формат JSON списка армии: 'gdc' или 'datasource'."""
+    if "category" in data and isinstance(data.get("category"), dict) and "cards" in data["category"]:
+        return "gdc"
+    if "data" in data:
+        return "datasource"
+    return "unknown"
+
+
+def normalize_gdc_format(data: dict) -> dict:
+    """Конвертировать GDC list-формат (category.cards) во внутренний datasource-формат (data[].datasheets)."""
+    category = data["category"]
+    cards = [c for c in category.get("cards", []) if c.get("cardType") == "DataCard"]
+    return {
+        "name": category.get("name", "Без названия"),
+        "data": [{"datasheets": cards}],
+    }
+
+
 def get_faction_units(faction_data: Dict) -> Dict[str, Dict]:
     """Извлечь все юниты фракции с их данными"""
     units = {}
@@ -245,7 +264,14 @@ def validate_army_list(json_data, check_on_attach: bool = False) -> ValidationRe
             return ValidationResult(valid=False, errors=[f"Невалидный JSON: {e}"], warnings=[])
     else:
         data = json_data
-    
+
+    # Нормализуем GDC формат
+    fmt = detect_army_format(data)
+    if fmt == "gdc":
+        data = normalize_gdc_format(data)
+    elif fmt == "unknown":
+        return ValidationResult(valid=False, errors=["Неизвестный формат JSON. Ожидается экспорт из game-datacards (datasource или list)."], warnings=[])
+
     # Получаем датащиты из списка
     if "data" not in data or len(data["data"]) == 0:
         return ValidationResult(valid=False, errors=["Не найдены данные армии в JSON"], warnings=[])
@@ -555,7 +581,10 @@ def update_army_list_from_datasources(json_data) -> Tuple[dict, List[str]]:
             return json_data, ["Ошибка парсинга JSON"]
     else:
         data = json_data.copy()  # Копируем чтобы не мутировать оригинал
-    
+
+    if detect_army_format(data) == "gdc":
+        data = normalize_gdc_format(data)
+
     if "data" not in data or len(data["data"]) == 0:
         return data, ["Нет данных для обновления"]
     
