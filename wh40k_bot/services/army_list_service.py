@@ -7,6 +7,7 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from wh40k_bot.db import ArmyList, ArmyListRepository, UserRepository
 from wh40k_bot.services.datasource_service import validate_army_list, update_army_list_from_datasources
+from wh40k_bot.services.datasource_service import detect_army_format, normalize_gdc_format
 
 
 @dataclass
@@ -30,12 +31,16 @@ class ParsedArmyList:
 
 
 def parse_army_list_json(json_data) -> ParsedArmyList:
-    """Парсит JSON файл списка армии из game-datacards. Принимает str или dict."""
+    """Парсит JSON файл списка армии из game-datacards (datasource или GDC list формат). Принимает str или dict."""
+
     if isinstance(json_data, str):
         data = json.loads(json_data)
     else:
         data = json_data
-    
+
+    if detect_army_format(data) == "gdc":
+        data = normalize_gdc_format(data)
+
     name = data.get("name", "Без названия")
     faction = None
     total_points = 0

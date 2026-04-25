@@ -1,0 +1,2364 @@
+{
+  "id": "nids-2000",
+  "name": "nids-2000",
+  "version": "1.0.0",
+  "lastUpdated": "2026-04-25T00:17:10.906Z",
+  "data": [
+    {
+      "id": "nids-2000",
+      "name": "nids-2000",
+      "colours": {
+        "header": "#1a1a1a",
+        "banner": "#4a4a4a"
+      },
+      "datasheets": [
+        {
+          "abilities": {
+            "core": [],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Bounding Leap",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "10-20 Hormagaunts"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Swarming shock troops, Hormagaunts are seeded onto prey worlds in their billions. As simple hunter-slayer organisms, they can be left to rampage, wearing down defence lines and forcing the prey to expend lives and ammunition. Many formidable bastions have been buried in literal mountains of these chitinous horrors.",
+          "id": "b6d511cb-c07b-5e74-9aaf-0d2e07b841b3",
+          "keywords": [
+            "Infantry",
+            "Battleline",
+            "Great Devourer",
+            "Endless Multitude",
+            "Hormagaunts"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: Hormagaunt talons.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Hormagaunt talons",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "3"
+                }
+              ]
+            }
+          ],
+          "name": "Hormagaunts",
+          "points": [
+            {
+              "cost": "130",
+              "keyword": null,
+              "models": "20",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "65",
+              "keyword": null,
+              "models": "10",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "10\"",
+              "name": "Hormagaunts",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "5+",
+              "t": "3",
+              "w": "1"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "28.5mm",
+          "chapter": null,
+          "leadBy": [
+            "Tyranid Prime with Lash Whip"
+          ],
+          "role": "Battleline",
+          "unitSize": {
+            "cost": "130",
+            "keyword": null,
+            "models": "20",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Bounding Leap",
+                "description": "This unit is eligible to declare a charge in a turn in which it Advanced.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "10-20 Hormagaunts"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Swarming shock troops, Hormagaunts are seeded onto prey worlds in their billions. As simple hunter-slayer organisms, they can be left to rampage, wearing down defence lines and forcing the prey to expend lives and ammunition. Many formidable bastions have been buried in literal mountains of these chitinous horrors.",
+          "id": "b6d511cb-c07b-5e74-9aaf-0d2e07b841b3",
+          "keywords": [
+            "Infantry",
+            "Battleline",
+            "Great Devourer",
+            "Endless Multitude",
+            "Hormagaunts"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: Hormagaunt talons.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Hormagaunt talons",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "3"
+                }
+              ]
+            }
+          ],
+          "name": "Hormagaunts",
+          "points": [
+            {
+              "cost": "130",
+              "keyword": null,
+              "models": "20",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "65",
+              "keyword": null,
+              "models": "10",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "10\"",
+              "name": "Hormagaunts",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "5+",
+              "t": "3",
+              "w": "1"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "28.5mm",
+          "chapter": null,
+          "leadBy": [
+            "Tyranid Prime with Lash Whip"
+          ],
+          "role": "Battleline",
+          "unitSize": {
+            "cost": "130",
+            "keyword": null,
+            "models": "20",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Skulking Horrors",
+                "description": "Once per turn, when an enemy unit ends a Normal, Advance or Fall Back move within 9\" of this unit, if this unit is not within Engagement Range of one or more enemy units, it can make a Normal move of up to D6\".",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "10-20 Termagants"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Scuttling predators that attack in huge swarms, Termagants were originally spawned to roam the tight arterial passages of hive ships and hunt intruders. They harry their prey with a hail of firepower, seeking always to outflank and envelop their victims as they erode their numbers.",
+          "id": "00fb3f2f-b6be-50ac-935d-eed391fe6ac1",
+          "keywords": [
+            "Infantry",
+            "Battleline",
+            "Great Devourer",
+            "Endless Multitude",
+            "Termagants"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: fleshborer; chitinous claws and teeth.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Chitinous claws and teeth",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "3"
+                }
+              ]
+            }
+          ],
+          "name": "Termagants",
+          "points": [
+            {
+              "cost": "120",
+              "keyword": null,
+              "models": "20",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "60",
+              "keyword": null,
+              "models": "10",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [
+                    "Assault"
+                  ],
+                  "name": "Fleshborer",
+                  "range": "18\"",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Termagant devourer",
+                  "range": "18\"",
+                  "skill": "4+",
+                  "strength": "4"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [
+                    "Twin-linked",
+                    "Pistol",
+                    "Assault"
+                  ],
+                  "name": "Termagant spinefists",
+                  "range": "12\"",
+                  "skill": "4+",
+                  "strength": "3"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "D3",
+                  "damage": "1",
+                  "keywords": [
+                    "Heavy",
+                    "Blast"
+                  ],
+                  "name": "Shardlauncher",
+                  "range": "18\"",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "1",
+                  "damage": "1",
+                  "keywords": [
+                    "Heavy"
+                  ],
+                  "name": "Spike rifle",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "4"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "D6",
+                  "damage": "1",
+                  "keywords": [
+                    "Torrent",
+                    "Devastating Wounds",
+                    "Assault"
+                  ],
+                  "name": "Strangleweb",
+                  "range": "18\"",
+                  "skill": "N/A",
+                  "strength": "2"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "6\"",
+              "name": "Termagants",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "5+",
+              "t": "3",
+              "w": "1"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 strangleweb.",
+            "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 spike rifle.",
+            "For every 10 models in this unit, 1 model’s ranged weapon can be replaced with 1 shardlauncher.",
+            "All models in this unit can each have their fleshborer replaced with 1 Termagant spinefists.",
+            "All models in this unit can each have their fleshborer replaced with 1 Termagant devourer."
+          ],
+          "baseSize": "28.5mm",
+          "chapter": null,
+          "leadBy": [
+            "Tyranid Prime with Lash Whip"
+          ],
+          "role": "Battleline",
+          "unitSize": {
+            "cost": "120",
+            "keyword": null,
+            "models": "20",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Leader",
+              "Scouts 8\""
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Shadow in the Warp",
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "4+"
+            },
+            "other": [
+              {
+                "name": "Vicious Insight",
+                "description": "While this model is leading a unit, weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Hypnotic Gaze (Psychic)",
+                "description": "At the start of the Fight phase, select one enemy unit within Engagement Range of this model. Until the end of the phase, each time a model in that unit makes an attack, subtract 1 from the Hit roll.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Broodlord"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Mightiest and most intelligent of the Genestealer bioforms, the Broodlord is an insidious predatory infiltrator. Able to act as a forward commander for the invasion swarms, it sows carnage through the enemy lines while maximising the cunning and lethality of lesser warrior organisms around it.",
+          "id": "521dd839-5fa0-5e3d-aa1d-b635fc1b20f0",
+          "keywords": [
+            "Infantry",
+            "Character",
+            "Psyker",
+            "Great Devourer",
+            "Vanguard Invader",
+            "Synapse",
+            "Broodlord"
+          ],
+          "leader": "This model can be attached to the following unit: ■ GENESTEALERS",
+          "loadout": "This model is equipped with: Broodlord claws and talons.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "5",
+                  "damage": "2",
+                  "keywords": [
+                    "Twin-linked",
+                    "Devastating Wounds"
+                  ],
+                  "name": "Broodlord claws and talons",
+                  "range": "Melee",
+                  "skill": "2+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "name": "Broodlord",
+          "points": [
+            {
+              "cost": "80",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "8\"",
+              "name": "Broodlord",
+              "oc": "1",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "4+",
+              "t": "5",
+              "w": "6"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "75 x 42mm Oval Base",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "GENESTEALERS"
+            ],
+            "extra": ""
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "80",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "selectedEnhancement": {
+            "name": "Adaptive Biology",
+            "id": "eb4e01d1-2d5e-5e05-b845-6deda818cd90",
+            "cost": "25",
+            "keywords": [
+              "Tyranids"
+            ],
+            "excludes": [],
+            "description": "TYRANIDS model only. The bearer has the Feel No Pain 5+ ability. At the start of any turn, if the bearer has fewer than its starting number of wounds remaining, until the end of the battle, it has the Feel No Pain 4+ ability instead.",
+            "faction_id": "TYR",
+            "source": "40k-10e",
+            "cardType": "enhancement",
+            "detachment": "Invasion Fleet",
+            "detachment_faction": "Tyranids"
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise D3",
+              "Leader"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Shadow in the Warp",
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "4+"
+            },
+            "other": [
+              {
+                "name": "Hive Commander",
+                "description": "At the start of your Command phase, if this model is on the battlefield, you gain 1CP.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Malign Presence (Aura)",
+                "description": "If this model is your WARLORD, each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.\n\nDesigner’s Note: This ability takes precedence over the Lord of Deceit ability presented in the Balance Dataslate June 2024.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Domination of the Hive Mind (Aura)",
+                "description": "While a friendly TYRANIDS unit is within 9\" of this model, that unit is within your army’s Synapse Range.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 The Swarmlord – EPIC HERO"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "The Swarmlord is the herald of the Hive Mind and may be as old as the Tyranids themselves. Upon death, the beast is always absorbed through the synaptic link and spawned anew. It has presided over the annihilation of countless civilisations, and with every incarnation it only becomes more deadly.",
+          "id": "98de8243-66f7-535c-94ec-28a17277255b",
+          "keywords": [
+            "Monster",
+            "Character",
+            "Epic Hero",
+            "Psyker",
+            "Great Devourer",
+            "Synapse",
+            "Hive Tyrant",
+            "The Swarmlord"
+          ],
+          "leader": "This model can be attached to the following unit: ■ TYRANT GUARD",
+          "loadout": "This model is equipped with: Synaptic pulse; bone sabres.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "8",
+                  "damage": "3",
+                  "keywords": [
+                    "Twin-linked"
+                  ],
+                  "name": "Bone sabres",
+                  "range": "Melee",
+                  "skill": "2+",
+                  "strength": "9"
+                }
+              ]
+            }
+          ],
+          "name": "The Swarmlord",
+          "points": [
+            {
+              "cost": "220",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D6+3",
+                  "damage": "2",
+                  "keywords": [
+                    "Torrent",
+                    "Psychic"
+                  ],
+                  "name": "Synaptic pulse",
+                  "range": "18\"",
+                  "skill": "N/A",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "8\"",
+              "name": "The Swarmlord",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "10",
+              "w": "10"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "60mm",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "TYRANT GUARD"
+            ],
+            "extra": ""
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "220",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": true
+        },
+        {
+          "abilities": {
+            "core": [
+              "Leader"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse",
+              "Shadow in the Warp"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": true,
+              "value": "4+"
+            },
+            "other": [
+              {
+                "name": "Node Lash (Psychic)",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll. If the target is Battle-shocked, add 1 to the Wound roll as well.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Psychic Terror (Psychic)",
+                "description": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Neuroloids",
+                "description": "In your Command phase, you can select up to two friendly TYRANIDS units within 18\" of this model’s unit. Until the start of your next Command phase, the selected units are always considered to be within Synapse Range of your army.\n\nDesigner’s Note: Place a Neuroloid token next to each selected unit to remind you.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Neurotyrant"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "The Shadow in the Warp radiating from this immensely powerful beast creeps in all directions, driving even non-psychic prey organisms to screaming madness. As its foes writhe in agony, the Neurotyrant guides the swarms around it to slaughter with brutal efficiency.",
+          "id": "690228cc-b07b-5d25-9643-7b50d9db5d5d",
+          "keywords": [
+            "Monster",
+            "Character",
+            "Fly",
+            "Psyker",
+            "Great Devourer",
+            "Synapse",
+            "Neurotyrant"
+          ],
+          "leader": "This model can be attached to the following units: ■ NEUROGAUNTS ■ TYRANT GUARD ■ ZOANTHROPES",
+          "loadout": "This model is equipped with: Psychic Scream; Neurotyrant claws and lashes.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "6",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Neurotyrant claws and lashes",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "name": "Neurotyrant",
+          "points": [
+            {
+              "cost": "105",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "2D6",
+                  "damage": "2",
+                  "keywords": [
+                    "Torrent",
+                    "Psychic",
+                    "Ignores Cover"
+                  ],
+                  "name": "Psychic scream",
+                  "range": "18\"",
+                  "skill": "N/A",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "7+",
+              "m": "6\"",
+              "name": "Neurotyrant",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "4+",
+              "t": "8",
+              "w": "9"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "50mm",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "NEUROGAUNTS",
+              "TYRANT GUARD",
+              "ZOANTHROPES"
+            ],
+            "extra": ""
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "105",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "selectedEnhancement": {
+            "name": "Alien Cunning",
+            "id": "90977725-0f8f-5966-b8d9-0b3afb496892",
+            "cost": "30",
+            "keywords": [
+              "Tyranids"
+            ],
+            "excludes": [],
+            "description": "TYRANIDS model only. After both players have deployed their armies, select up to three TYRANIDS units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves if you wish, regardless of how many units are already in Strategic Reserves.",
+            "faction_id": "TYR",
+            "source": "40k-10e",
+            "cardType": "enhancement",
+            "detachment": "Invasion Fleet",
+            "detachment_faction": "Tyranids"
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise D3",
+              "Deep Strike"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Aerial Seeding",
+                "description": "This model must start the battle in Reserves, but neither it nor any units embarked within it are counted towards any limits placed on the maximum number of Reserves units you can start the battle with. This model can be set up in the Reinforcements step of your first, second or third Movement phase, regardless of any mission rules. Any units embarked within this model must immediately disembark after it has been set up on the battlefield, and they must be set up more than 9\" away from all enemy models. After this model has been set up on the battlefield, no units can embark within it.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Tyrannocyte"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Tyrannocytes are huge spores, heat-resistant to endure atmospheric re-entry and with wet, pulsing interior chambers within which broods of organisms can ride down to a world’s surface. Once its passengers spill forth into battle, the Tyrannocyte drifts skyward again and goes hunting for its own prey.",
+          "id": "fd1b3b32-8417-51ca-876f-082d5eef9851",
+          "keywords": [
+            "Monster",
+            "Fly",
+            "Transport",
+            "Dedicated Transport",
+            "Great Devourer",
+            "Vanguard Invader",
+            "Tyrannocyte"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: Tyrannocyte bio-weapons; flensing whips.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "6",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Flensing whips",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "7"
+                }
+              ]
+            }
+          ],
+          "name": "Tyrannocyte",
+          "points": [
+            {
+              "cost": "105",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "5",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Tyrannocyte bio-weapons",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Tyrannocyte",
+              "oc": "2",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "3+",
+              "t": "9",
+              "w": "10"
+            }
+          ],
+          "transport": "This model has a transport capacity of 20 TYRANIDS INFANTRY models, or 1 TYRANIDS MONSTER model with a Wounds characteristic of 12 or less. Each Infantry model with a Wounds characteristic of more than 1 takes up the space of 3 models.",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "100mm",
+          "chapter": null,
+          "role": "Dedicated Transport",
+          "unitSize": {
+            "cost": "105",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Seed Spore Mines",
+                "description": "Once per turn, in your Shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new SPORE MINES unit to your army and set it up anywhere on the battlefield that is wholly within 48\" of this unit and more than 9\" horizontally away from all enemy units. That SPORE MINES unit contains 1 model for each model in this unit.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1-3 Biovores"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "These living artillery pieces nurture a clutch of Spore Mines within their bodies. After anchoring themselves to the ground with their chitinous spurs, the creatures fire their living ammunition in high arcs, allowing the Spore Mines to drift languidly down into the midst of the foe where they detonate with sudden violence.",
+          "id": "5408a2a2-0dd1-55ab-9280-6d893fd9a60c",
+          "keywords": [
+            "Infantry",
+            "Great Devourer",
+            "Biovores"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: Spore Mine launcher; chitin-barbed limbs.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "2",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Chitin-barbed limbs",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "name": "Biovores",
+          "points": [
+            {
+              "cost": "150",
+              "keyword": null,
+              "models": "3",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "100",
+              "keyword": null,
+              "models": "2",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "50",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D3",
+                  "damage": "2",
+                  "keywords": [
+                    "Indirect Fire",
+                    "Heavy",
+                    "Devastating Wounds",
+                    "Blast"
+                  ],
+                  "name": "Spore Mine launcher",
+                  "range": "48\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "5\"",
+              "name": "Biovores",
+              "oc": "1",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "3+",
+              "t": "6",
+              "w": "5"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "80mm",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "150",
+            "keyword": null,
+            "models": "3",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Blistering Assault",
+                "description": "Each time an enemy unit is selected to shoot, after that unit has shot, if any models from this unit lost one or more wounds as a result of those attacks, this unit can make a Blistering Assault move. If it does, roll one D6, adding 2 to the result: each model in this unit can be moved a distance in inches up to the result, but this unit must finish that move as close as possible to the closest enemy unit. When doing so, those models can be moved within Engagement Range of that enemy unit. Each unit can only make one Blistering Assault move per phase.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1-2 Carnifexes"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Carnifexes have been a mainstay of the hive fleets for centuries. Rugged and adaptable organisms, they can support a great range of weapon grafts and biomorphs while retaining the raw strength, durability and armoured ferocity that has seen them smash through countless prey defence lines like living battering rams.",
+          "id": "28b62847-0a45-5cf7-a498-0ed2ab794f82",
+          "keywords": [
+            "Monster",
+            "Great Devourer",
+            "Carnifexes"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: Carnifex scything talons; Carnifex extra scything talons; chitinous claws and teeth.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "6",
+                  "damage": "3",
+                  "keywords": [],
+                  "name": "Carnifex scything talons",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "9"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "2",
+                  "damage": "3",
+                  "keywords": [
+                    "Extra Attacks"
+                  ],
+                  "name": "Carnifex extra scything talons",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "9"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "4",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Chitinous claws and teeth",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-3",
+                  "attacks": "4",
+                  "damage": "D6+1",
+                  "keywords": [],
+                  "name": "Carnifex crushing claws",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "12"
+                }
+              ]
+            }
+          ],
+          "name": "Carnifexes",
+          "points": [
+            {
+              "cost": "180",
+              "keyword": null,
+              "models": "2",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "90",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "6",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Deathspitters with slimer maggots",
+                  "range": "24\"",
+                  "skill": "4+",
+                  "strength": "7"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "12",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Devourers with brainleech worms",
+                  "range": "18\"",
+                  "skill": "4+",
+                  "strength": "6"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "D3",
+                  "damage": "3",
+                  "keywords": [
+                    "Blast"
+                  ],
+                  "name": "Heavy venom cannon",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "9"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D6+1",
+                  "damage": "2",
+                  "keywords": [
+                    "Blast"
+                  ],
+                  "name": "Stranglethorn cannon",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "7"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "D3",
+                  "damage": "1",
+                  "keywords": [
+                    "Blast",
+                    "Assault"
+                  ],
+                  "name": "Bio-plasma",
+                  "range": "12\"",
+                  "skill": "4+",
+                  "strength": "7"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "5",
+                  "damage": "1",
+                  "keywords": [
+                    "Assault"
+                  ],
+                  "name": "Spine banks",
+                  "range": "6\"",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Carnifexes",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "9",
+              "w": "8"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "Any number of models can each be equipped with 1 spine banks.",
+            "Any number of models can each be equipped with 1 bio-plasma.",
+            "Any number of models can each have their Carnifex scything talons replaced with one of the following: ◦ 1 deathspitters with slimer maggots ◦ 1 devourers with brainleech worms ◦ 1 Carnifex crushing claws",
+            "Any number of models can each have their Carnifex extra scything talons replaced with one of the following: ◦ 1 deathspitters with slimer maggots ◦ 1 devourers with brainleech worms ◦ 1 heavy venom cannon ◦ 1 stranglethorn cannon ◦ 1 Carnifex crushing claws"
+          ],
+          "baseSize": "105 x 70mm Oval Base",
+          "chapter": null,
+          "leadBy": [
+            "Old One Eye"
+          ],
+          "role": "Other",
+          "unitSize": {
+            "cost": "180",
+            "keyword": null,
+            "models": "2",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise D3"
+            ],
+            "damaged": {
+              "range": "1-5 WOUNDS REMAINING",
+              "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+              "showDamagedAbility": true,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Symbiotic Targeting",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly TYRANIDS model makes an attack that targets that unit, re-roll a Hit roll of 1.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Exocrine"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Huge, tough and very stupid, the Exocrine’s only task is to carry the dorsal cannon organism on its back into an optimal firing position. Once in place, the bio-plasmic cannon emits a terrible, high-pitched hiss before unleashing a searing blast of bio-plasma capable of reducing tanks and bunkers to glowing craters.",
+          "id": "b31924b6-d882-5eda-92c7-003cea05d7c1",
+          "keywords": [
+            "Monster",
+            "Great Devourer",
+            "Exocrine"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: bio-plasmic cannon; powerful limbs.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "3",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Powerful limbs",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "7"
+                }
+              ]
+            }
+          ],
+          "name": "Exocrine",
+          "points": [
+            {
+              "cost": "140",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-3",
+                  "attacks": "D6+3",
+                  "damage": "3",
+                  "keywords": [
+                    "Heavy",
+                    "Blast"
+                  ],
+                  "name": "Bio-plasmic cannon",
+                  "range": "36\"",
+                  "skill": "3+",
+                  "strength": "9"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Exocrine",
+              "oc": "4",
+              "showDamagedMarker": true,
+              "showName": false,
+              "sv": "3+",
+              "t": "10",
+              "w": "14"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "120 x 92mm Oval Base",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "140",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise D3"
+            ],
+            "damaged": {
+              "range": "1-5 WOUNDS REMAINING",
+              "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll.",
+              "showDamagedAbility": true,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Grisly Spectacle",
+                "description": "Each time this model is selected to fight, after resolving its attacks, if one or more enemy units were destroyed by those attacks, each enemy unit within 6\" of this model must take a Battle-shock test.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Haruspex"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "The infinite hunger of the Haruspex can see it consume an entire platoon of prey organisms in moments. Nothing escapes its yawning gullet and lashing tongue for long; its victims meet a horrible end as they are swallowed down to be gradually dissolved into raw biomass within the monster’s churning innards.",
+          "id": "b7f8d67b-a254-50e3-b8bf-38346df1546f",
+          "keywords": [
+            "Monster",
+            "Great Devourer",
+            "Harvester",
+            "Haruspex"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: grasping tongue; ravenous maw; shovelling claws.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "14",
+                  "damage": "2",
+                  "keywords": [],
+                  "name": "Ravenous maw",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "7"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "4",
+                  "damage": "D6+1",
+                  "keywords": [
+                    "Extra Attacks"
+                  ],
+                  "name": "Shovelling claws",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "14"
+                }
+              ]
+            }
+          ],
+          "name": "Haruspex",
+          "points": [
+            {
+              "cost": "125",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "1",
+                  "damage": "D6+1",
+                  "keywords": [
+                    "Precision"
+                  ],
+                  "name": "Grasping tongue",
+                  "range": "12\"",
+                  "skill": "3+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Haruspex",
+              "oc": "4",
+              "showDamagedMarker": true,
+              "showName": false,
+              "sv": "3+",
+              "t": "11",
+              "w": "14"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "120 x 92mm Oval Base",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "125",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Defensive Stance",
+                "description": "Each time you target this unit with the Fire Overwatch Stratagem, while resolving that Stratagem, hits are scored on unmodified Hit rolls of 5+, or unmodified Hit rolls of 4+ instead if this unit is within range of an objective marker that you control.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "3-6 Hive Guard"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Hive Guard are spawned to protect Tyranid bio-architecture and vital spore-seeding sites. They carry a monstrous arsenal of grafted bio-weapons and are instinctively driven – or sometimes synaptically impelled – to lay down heavy hails of firepower against those prey organisms the Hive Mind wishes to see eradicated.",
+          "id": "f652fcb5-9711-533f-ae7c-498aff0f2ba2",
+          "keywords": [
+            "Infantry",
+            "Great Devourer",
+            "Hive Guard"
+          ],
+          "leader": "",
+          "loadout": "Every model is equipped with: shockcannon; chitinous claws and teeth.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "0",
+                  "attacks": "3",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Chitinous claws and teeth ",
+                  "range": "Melee",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "name": "Hive Guard",
+          "points": [
+            {
+              "cost": "180",
+              "keyword": null,
+              "models": "6",
+              "active": true,
+              "detachment": null
+            },
+            {
+              "cost": "90",
+              "keyword": null,
+              "models": "3",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "2",
+                  "damage": "3",
+                  "keywords": [
+                    "Anti-vehicle 2+"
+                  ],
+                  "name": "Shockcannon",
+                  "range": "24\"",
+                  "skill": "3+",
+                  "strength": "7"
+                }
+              ]
+            },
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "4",
+                  "damage": "1",
+                  "keywords": [
+                    "Indirect Fire",
+                    "Heavy"
+                  ],
+                  "name": "Impaler cannon",
+                  "range": "36\"",
+                  "skill": "4+",
+                  "strength": "5"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "6\"",
+              "name": "Hive Guard",
+              "oc": "1",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "3+",
+              "t": "7",
+              "w": "4"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "Any number of models can each have their shockcannon replaced with 1 impaler cannon."
+          ],
+          "baseSize": "50mm",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "180",
+            "keyword": null,
+            "models": "6",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1",
+              "Feel No Pain 5+"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Bio-stimulus (Aura)",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly TYRANIDS unit makes a melee attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Feeding Frenzy",
+                "description": "Each time this model makes a melee attack that targets a unit that is below its Starting Strength, add 1 to the Hit roll. If that target is also Below Half-strength, add 1 to the Wound roll as well.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Psychophage"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "These monsters stampede into battle with frightening speed. They devour any prey organism in their paths, but especially favour those victims with psychic abilities. How they metabolise such esoteric powers is unclear, but doing so allows them to project surges of psychocorrosive ash that deflagrate their victims’ minds and souls",
+          "id": "d5a50301-0327-56f8-8e31-1741c01c7b28",
+          "keywords": [
+            "Monster",
+            "Smoke",
+            "Great Devourer",
+            "Harvester",
+            "Psychophage"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: psychoclastic torrent; talons and betentacled maw.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "6",
+                  "damage": "2",
+                  "keywords": [
+                    "Devastating Wounds",
+                    "Anti-psyker 4+"
+                  ],
+                  "name": "Talons and betentacled maw",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "name": "Psychophage",
+          "points": [
+            {
+              "cost": "110",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "D6",
+                  "damage": "1",
+                  "keywords": [
+                    "Torrent",
+                    "Ignores Cover"
+                  ],
+                  "name": "Psychoclastic torrent",
+                  "range": "12\"",
+                  "skill": "N/A",
+                  "strength": "6"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "12\"",
+              "name": "Psychophage",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "3+",
+              "t": "9",
+              "w": "10"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "120 x 92mm Oval Base",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "110",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Deadly Demise 1"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Death Scream",
+                "description": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. That unit must take a Battle-shock test, subtracting 1 from that test.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Screamer-Killer"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "An older adaptation of the basic Carnifex strain, the Screamer-Killer was christened by terrified Imperial troops for the distinctive howl it emits as it generates then unleashes its bio-plasmic blasts. Screamer-Killers are often seen at the forefront of a Tyranid assault, where they can inflict the most damage quickly.",
+          "id": "cb163d86-d544-5b6c-9626-07f3adc88658",
+          "keywords": [
+            "Monster",
+            "Great Devourer",
+            "Screamer-Killer"
+          ],
+          "leader": "",
+          "loadout": "This model is equipped with: bio-plasmic scream; Screamer-Killer talons.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "10",
+                  "damage": "3",
+                  "keywords": [],
+                  "name": "Scream-Killer talons",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "10"
+                }
+              ]
+            }
+          ],
+          "name": "Screamer-Killer",
+          "points": [
+            {
+              "cost": "125",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-2",
+                  "attacks": "D6+3",
+                  "damage": "1",
+                  "keywords": [
+                    "Blast",
+                    "Assault"
+                  ],
+                  "name": "Bio-plasmic scream",
+                  "range": "18\"",
+                  "skill": "4+",
+                  "strength": "8"
+                }
+              ]
+            }
+          ],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Screamer-Killer",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "9",
+              "w": "10"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "90mm",
+          "chapter": null,
+          "role": "Other",
+          "unitSize": {
+            "cost": "125",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        },
+        {
+          "abilities": {
+            "core": [
+              "Feel No Pain 5+",
+              "Leader"
+            ],
+            "damaged": {
+              "description": "",
+              "range": "",
+              "showDamagedAbility": false,
+              "showDescription": true
+            },
+            "faction": [
+              "Synapse"
+            ],
+            "invul": {
+              "info": "",
+              "showAtTop": true,
+              "showInfo": false,
+              "showInvulnerableSave": false,
+              "value": ""
+            },
+            "other": [
+              {
+                "name": "Alpha Leader",
+                "description": "While this model is leading a unit, each time a model in that unit makes an attack, you can re-roll the Hit roll.",
+                "showAbility": true,
+                "showDescription": true
+              },
+              {
+                "name": "Unstoppable Monster",
+                "description": "At the start of each player’s Command phase, this model regains up to D3 lost wounds.",
+                "showAbility": true,
+                "showDescription": true
+              }
+            ],
+            "primarch": [],
+            "special": [],
+            "wargear": []
+          },
+          "cardType": "DataCard",
+          "composition": [
+            "1 Old One Eye – EPIC HERO"
+          ],
+          "factions": [
+            "Tyranids"
+          ],
+          "faction_id": "nids-2000",
+          "fluff": "Known as the Beast of Calth, this unstoppable brute was first seen during the First Tyrannic War. Though many have thought it slain over the centuries, always the scarred monster rises again. Whether it is spawned as a new Tyranid organism or the same unstoppable monster come again is a mystery few in its path live long enough to ponder.",
+          "id": "da6d41eb-57dc-5006-8015-d05579b5a4f6",
+          "keywords": [
+            "Monster",
+            "Character",
+            "Epic Hero",
+            "Great Devourer",
+            "Old One Eye"
+          ],
+          "leader": "This model can be attached to the following unit: ■ CARNIFEXES",
+          "loadout": "This model is equipped with: Old One Eye’s claws and talons.",
+          "meleeWeapons": [
+            {
+              "active": true,
+              "profiles": [
+                {
+                  "active": true,
+                  "ap": "-1",
+                  "attacks": "12",
+                  "damage": "1",
+                  "keywords": [],
+                  "name": "Old One Eye’s claws and talons – Sweep",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "6"
+                },
+                {
+                  "active": true,
+                  "ap": "-3",
+                  "attacks": "6",
+                  "damage": "D6+1",
+                  "keywords": [],
+                  "name": "Old One Eye’s claws and talons – Strike",
+                  "range": "Melee",
+                  "skill": "3+",
+                  "strength": "14"
+                }
+              ]
+            }
+          ],
+          "name": "Old One Eye",
+          "points": [
+            {
+              "cost": "150",
+              "keyword": null,
+              "models": "1",
+              "active": true,
+              "detachment": null
+            }
+          ],
+          "rangedWeapons": [],
+          "source": "40k-10e",
+          "stats": [
+            {
+              "active": true,
+              "ld": "8+",
+              "m": "8\"",
+              "name": "Old One Eye",
+              "oc": "3",
+              "showDamagedMarker": false,
+              "showName": false,
+              "sv": "2+",
+              "t": "9",
+              "w": "9"
+            }
+          ],
+          "transport": "",
+          "wargear": [
+            "None"
+          ],
+          "baseSize": "105 x 70mm Oval Base",
+          "chapter": null,
+          "leads": {
+            "units": [
+              "CARNIFEXES"
+            ],
+            "extra": ""
+          },
+          "role": "Character",
+          "unitSize": {
+            "cost": "150",
+            "keyword": null,
+            "models": "1",
+            "active": true,
+            "detachment": null
+          },
+          "isWarlord": false
+        }
+      ]
+    }
+  ]
+}
